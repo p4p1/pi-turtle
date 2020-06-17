@@ -2,3 +2,9 @@
 #+DESCRIPTION: A raspberry pi project for pentesting and converting ethernet over USB
 #+AUTHOR: p4p1
 
+[[https://raw.githubusercontent.com/p4p1/pi-turtle/master/assets/pi-turtle.png]]
+
+The pi-turtle is an open source and free to use project to build a ethernet
+to usb adaptator from scratch on a budget. this file contains the tutorial on
+how to make this and all of the recommended software is provided in this
+repository.
