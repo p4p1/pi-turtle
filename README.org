@@ -8,3 +8,18 @@ The pi-turtle is an open source and free to use project to build a ethernet
 to usb adaptator from scratch on a budget. this file contains the tutorial on
 how to make this and all of the recommended software is provided in this
 repository.
+
+** Summary
+1. [[#What you need][What you need]]
+2. [[#How to build][How to build]]
+
+** What you need
+This is a list of all of the hardware you need and a link to get it
+- [ ] [[https://www.raspberrypi.org/products/raspberry-pi-zero/][Rapsberry Pi Zero]] -> Official web page
+- [ ] [[https://www.amazon.com/HiLetgo-ENC28J60-Ethernet-Network-Arduino/dp/B00WX1NRO0/ref=sr_1_2?dchild=1&keywords=ENC28J60&qid=1592362208&sr=8-2][ENCJ28J60 Ethernet LAN Adapter (HanRun HR911105A)]] -> Amazon link
+- [ ] [[https://www.amazon.com/Partstock-Connector-Replacement-Adapter-Connectors/dp/B07TBL5Z9T/ref=sr_1_4?crid=B0CXSE4UVDO9&dchild=1&keywords=usb+male+connector&qid=1592362265&sprefix=Usb+male+connec%2Caps%2C268&sr=8-4][Usb Male connector]] -> Amazon link
+- [ ] Some cables
+- [ ] soldering iron
+
+** How to build
+    
