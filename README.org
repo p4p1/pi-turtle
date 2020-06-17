@@ -2,4 +2,3 @@
 #+DESCRIPTION: A raspberry pi project for pentesting and converting ethernet over USB
 #+AUTHOR: p4p1
 
-* pi-turtle
