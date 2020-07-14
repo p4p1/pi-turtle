@@ -2,12 +2,12 @@
 #+DESCRIPTION: A raspberry pi project for pentesting and converting ethernet over USB
 #+AUTHOR: p4p1
 
-[[https://raw.githubusercontent.com/p4p1/pi-turtle/master/assets/pi-turtle.png]]
-
+* pi-turtle
 The pi-turtle is an open source and free to use project to build a ethernet
 to usb adaptator from scratch on a budget. this file contains the tutorial on
 how to make this and all of the recommended software is provided in this
 repository.
+[[https://raw.githubusercontent.com/p4p1/pi-turtle/master/assets/pi-turtle.png]]
 
 ** Summary
 1. [[#What you need][What you need]]
@@ -21,5 +21,22 @@ This is a list of all of the hardware you need and a link to get it
 - [ ] Some cables
 - [ ] soldering iron
 
-** How to build
-    
+** Prerequisites
+To be able to do this project I supose that you have the ability to solder
+and that you know your way around linux at a basic level. Other than that
+you should be fine by following the different instructions :)
+
+**  Part I: Soldering the board
+This first step is soldering the different boards, you need to have the
+different pinout layed out in front of you with a little bit of solder
+on them. The objective is to get everything "Ready" before we start putting
+things together. You first need to remove the pins from the Ethernet module
+if you have some on your model the objective is to make it as flush as possible,
+like this:
+[[https://raw.githubusercontent.com/p4p1/pi-turtle/master/assets/pizero_esp_sold.png]]
+Then I recommend adding some solder on the Raspberry Pi Zero.
+
+
+** Sources
+[[http://lokspace.eu/control-your-anet-a8-3d-printer-using-octoprint-on-raspberry-pi-zero-with-sdio-wifi-addon-direct-uart-connection-and-still-have-one-free-usb/][pi zero pinout]]
+[[http://domoticx.com/module-enc28j60-ethernet-lan-netwerk/][ENC28J60 pinout]]
