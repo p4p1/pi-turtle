@@ -1,0 +1,25 @@
+/* diff file for the boot folder */
+diff -up original/cmdline.txt modified/cmdline.txt
+--- original/cmdline.txt	1980-01-01 01:00:00.000000000 +0100
++++ modified/cmdline.txt	2020-07-14 16:18:02.300241408 +0200
+@@ -1 +1 @@
+-console=serial0,115200 console=tty1 root=PARTUUID=3e8ed753-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
++console=serial0,115200 console=tty1 root=PARTUUID=3e8ed753-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait modules-load=dwc2,g_ether
+diff -up original/config.txt modified/config.txt
+--- original/config.txt	2020-05-27 09:11:32.000000000 +0200
++++ modified/config.txt	2020-07-15 08:01:09.315177607 +0200
+@@ -45,7 +45,8 @@
+ # Uncomment some or all of these to enable the optional hardware interfaces
+ #dtparam=i2c_arm=on
+ #dtparam=i2s=on
+-#dtparam=spi=on
++dtparam=spi=on
++dtoverlay=enc28j60
+ 
+ # Uncomment this to enable infrared communication.
+ #dtoverlay=gpio-ir,gpio_pin=17
+@@ -63,3 +64,4 @@ max_framebuffers=2
+ 
+ [all]
+ #dtoverlay=vc4-fkms-v3d
++dtoverlay=dwc2
